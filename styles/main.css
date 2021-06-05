@@ -24,13 +24,15 @@ CONVENCION PARA AGREGAR ESTILOS (BUENA PRACTICA)
     --Just-White: #ffffff;
 }
 
-html{
+html {
     box-sizing: border-box;
     font-size: 62.5%;
     font-family: var(--DM-sans);
 }
 
-*, *::before, *::after{
+*,
+*::before,
+*::after {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
