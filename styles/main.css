@@ -1,5 +1,37 @@
+/* 
+CONVENCION PARA AGREGAR ESTILOS (BUENA PRACTICA)
+1. Posicionamiento
+2. modelo de caja (Box model)
+3. tipografia
+4. Estilos visuales
+5. otros
+*/
+
 :root {
     /* fuentes */
     --DM-sans: "DM Sans", sans-serif;
     --Inter: "Inter", sans-serif;
+
+    /* colores */
+    --Bitcoin-Orange: #f7931a;
+    --Soft-Orange: #ffe9d5;
+    --Secondary-Blue: #1a9af7;
+    --Soft-Blue: #e7f5ff;
+    --Warm-Black: #201e1c;
+    --Black: #282623;
+    --Grey: #bababa;
+    --Off-White: #faf8f7;
+    --Just-White: #ffffff;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: var(--DM-sans);
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
 }
