@@ -75,7 +75,7 @@ header img {
     color: var(--Just-White);
 }
 
-.header--title-container p{
+.header--title-container p {
     margin-top: 2.4rem;
     font-size: 1.4rem;
     font-weight: 500;
@@ -96,7 +96,7 @@ header img {
     /* sombra */
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border: none;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     font-size: 1.4rem;
     font-weight: bold;
     text-decoration: none;
@@ -104,10 +104,58 @@ header img {
     color: var(--Warm-Black);
 }
 
-.header--button span{
+.header--button span {
     display: inline-block;
     width: 1.3rem;
-    height: .8rem;
+    height: 0.8rem;
     margin-left: 1rem;
-    background-image: url('../assets/icons/down-arrow.svg');
+    background-image: url("../assets/icons/down-arrow.svg");
+}
+
+main {
+    width: 100vw;
+    height: auto;
+    background-color: var(--Off-White);
+}
+
+.main-exchange-container {
+    width: 100vw;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.main-exchange-container .backgroundImg {
+    width: 20rem;
+    height: 20rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    background-image: url("../assets/imgs/Bitcoin.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-exchange-container--title {
+    width: 90vw;
+    min-width: 28.8rem;
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.main-exchange-container--title h2 {
+    margin-bottom: 3rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--Black);
+}
+
+.main-exchange-container--title p{
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575;
 }
